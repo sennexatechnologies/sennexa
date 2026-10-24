@@ -1,0 +1,10 @@
+{
+  "description": "A technology and digital growth website helping businesses and organisations attract customers, improve operations and grow through web development, design and marketing.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
