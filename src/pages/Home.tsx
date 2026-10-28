@@ -152,14 +152,18 @@ function SelectedWork() {
             </div>
             <div className="p-8 sm:p-10">
               <p className="t-eyebrow inline-block rounded-full border border-warning/50 bg-warning/10 px-3 py-1 text-[0.625rem] text-[#f0b36a]">
-                Placeholder structure · awaiting authorised project
+                G.A. Okumu & Co. Advocates
               </p>
-              <h3 className="t-h3 mt-5">Case study title</h3>
+              <h3 className="t-h3 mt-5">Branded Receipt Design</h3>
               <dl className="mt-6 divide-y divide-line-dark border-y border-line-dark">
                 {fields.map((f) => (
                   <div key={f} className="grid grid-cols-[8.5rem_1fr] gap-4 py-3 text-sm">
                     <dt className="text-silver">{f}</dt>
-                    <dd className="text-mist">To be supplied by Sennexa</dd>
+                    <dd className="text-mist">G.A. Okumu & Co. Advocates</dd>
+                    <dd className="text-mist">Design a branded receipt template for the firm</dd>
+                    <dd className="text-mist">Design</dd>
+                    <dd className="text-mist">A branded receipt template in Word and PDF formats</dd>
+                    <dd className="text-mist">The receipt template is now used for all client transactions</dd>
                   </div>
                 ))}
               </dl>
